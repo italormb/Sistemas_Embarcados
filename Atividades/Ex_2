@@ -27,10 +27,15 @@ A tecla "TAB".
   (b) Apresentar uma lista com os arquivos dentro de uma pasta.
   ls;
   (c) Apresentar o caminho completo da pasta.
+  pwd;
   (d) Trocar de pasta.
+  cd;
   (e) Criar uma pasta.
+  mkdir;
   (f) Apagar arquivos definitivamente.
+  rm;
   (g) Apagar pastas definitivamente.
+  
   (h) Copiar arquivos.
   (i) Copiar pastas.
   (j) Mover arquivos.
