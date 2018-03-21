@@ -35,7 +35,7 @@ A tecla "TAB".
   (f) Apagar arquivos definitivamente.
   rm nome.extensão;
   (g) Apagar pastas definitivamente.
-  rm nome_past/ -r;
+  rm -rf nome;
   (h) Copiar arquivos.
   cp  /pasta/arquivo.extensão  /pasta1/pasta1.1
   (i) Copiar pastas.
