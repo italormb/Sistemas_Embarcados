@@ -1,0 +1,33 @@
+(a) $ ola usuario
+    $ Digite o seu nome:
+    $ eu mesmo
+    $ eu
+
+(b) $ ola usuario
+    $ Digite o seu nome:
+    $ "eu mesmo"
+    $ "eu
+
+(c) $ echo Eu mesmo | ./q2
+    $ ola usuario
+    $ Digite o seu nome:
+    $ Eu
+
+(d) $ echo Eu mesmo | ./q2
+    $ ola usuario
+    $ Digite o seu nome:
+    $ Eu
+
+(e) $ echo "Eu mesmo" | ./q2
+    $ ola usuario
+    $ Digite o seu nome:
+    $ Eu
+
+(f) $ echo Ola mundo cruel! > ola.txt
+    $ ./q2 < ola.txt
+    $ ola usuario
+    $ Digite o seu nome:
+    $ Ola
+
+
+

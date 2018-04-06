@@ -1,0 +1,11 @@
+
+
+
+num_caracs: q11.o num_caracs.o
+	gcc $(CFLAGS) -o num_caracs_2 q11.o num_caracs.o
+q11.o: q11.c num_caracs.h
+	gcc $(CFLAGS) -c q11.c
+num_caracs.o: num_caracs.c num_caracs.h
+	gcc $(CFLAGS) -c num_caracs.c
+clean:
+	rm -f *.o num_caracs_2
