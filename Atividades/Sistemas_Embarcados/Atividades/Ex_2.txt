@@ -1,0 +1,64 @@
+1. Por que o Linux recebeu esse nome?
+ Sabe-se que linux é um variante free-software da UNIX, e o criador do linux chama-se LINUS Torvalds.Observe as palavras escritas
+ em caixa alta, LINUS+UNIX = linux.
+ 
+2. O que são daemons?
+Tem como função o controle(inicia, reinicia, pausa e etc) de um serviço provido pelo seu sistema. A existêcia de um daemons 
+se tornou necessário quando a solução para um sistema operacional não cair dependesse de um loop infinito, logo, nasceu a 
+ideia de daemons que basicamente é algo que contralo as outras coisas. Ex: Imaganie um guarda de trânsito entrando em ação, 
+controlando o fluxo de carros quando a sinalização não está funcionando ou quando não há. O guarda de trânsito seria os 
+daemons e os carros seriam os processos.
+
+3. O que é o shell (concha)?
+O shell é intérprete entre o usuário e o sistema, através de comandos inseridos pelo usuário,o shell comunica com o kernel
+os comandos e este executa no hardware. O shell atraves de comando, pode exercutar vários processos simultaneamente, 
+repetidamente ou programa tal tarefa para tal hora.
+
+4. Por que é importante evitar executar o terminal como super-usuário?
+Para iniciantes é interessante evitar os comandos como super-usuário porque alguns comandos com sudo deixa a máquina 
+suscetivel a perigos externos, inclusive se for comandos desconhecidos.
+5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+A tecla "TAB".
+6. Quais botões do teclado apresentam instruções escritas anteriormente?
+
+7. Apresente os respectivos comandos no terminal para:
+  (a) Obter mais informações sobre um comando.
+  man e help;
+  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+  ls;
+  (c) Apresentar o caminho completo da pasta.
+  pwd;
+  (d) Trocar de pasta.
+  cd;
+  (e) Criar uma pasta.
+  mkdir; e touch cria arquivos;
+  (f) Apagar arquivos definitivamente.
+  rm nome.extensão;
+  (g) Apagar pastas definitivamente.
+  rm -rf nome;
+  (h) Copiar arquivos.
+  cp  /pasta/arquivo.extensão  /pasta1/pasta1.1
+  (i) Copiar pastas.
+  cp  /pasta /pasta1/pasta1.1 -r
+  (j) Mover arquivos.
+  mv  /pasta/arquivo.extensão  /pasta1/pasta1.1
+  (k) Mover pastas.
+  mv  /pasta  /pasta1/pasta1.1 -r
+  (l) Renomear pastas.
+  mv pasta1 pasta2
+  (m) Apresentar o conteúdo de um arquivo.
+  cat arquivo;
+  (n) Apresentar o tipo de um arquivo.
+  file arquivo.extensão
+  (o) Limpar a tela do terminal.
+  clear;
+  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+  grep;
+  (q) Ordenar informações em um arquivo-texto.
+  sort;
+  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+  sed;
+  (s) Conferir se dois arquivos são iguais.
+  diff arquivo1 arquivo2;
+  (t) Escrever algo na tela.
+  echo;
