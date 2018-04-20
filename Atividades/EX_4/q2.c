@@ -10,8 +10,12 @@
 
 int main(int argc, char *argv[]){
   int contador;
-  char string[6]="nome:",string2[7]=" anos",string3[7]="Idade: ",barra_n[3]="\n";
+  char nome[3],idade[3],string[6]="nome:",string2[7]=" anos",string3[7]="Idade: ",barra_n[3]="\n";
   FILE *pont_arq;
+  printf("qual o seu nome: \n");
+  scanf("%s", nome);
+  printf("qual o seu idade: \n");
+  scanf("%s", idade);
   for(contador=1;contador<argc;contador++){
     printf("%s\t", argv[contador]);
   }
@@ -20,10 +24,10 @@ int main(int argc, char *argv[]){
   pont_arq = fopen("q2.txt", "wb");
  // if(fwrite(v, sizeof(char),100 , pont_arq) != 100)
   if(fwrite(string, sizeof(char),6, pont_arq))
-  if(fwrite(argv[1], sizeof(char),3 , pont_arq))
+  if(fwrite(nome, sizeof(char),3 , pont_arq))
   if(fwrite(barra_n, sizeof(char),3 , pont_arq))
     if(fwrite(string3, sizeof(char),7 , pont_arq))
-  if(fwrite(argv[2], sizeof(char),3, pont_arq))
+  if(fwrite(idade, sizeof(char),3, pont_arq))
   if(fwrite(string2, sizeof(char),5 , pont_arq))
   if(fwrite(barra_n, sizeof(char),3 , pont_arq))
   // fechando arquivo
