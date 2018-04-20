@@ -2,28 +2,32 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <string.h> //para concatenar as strings com strcopy();
 
 int main(int argc, const char * argv[])
 {
   int fp, i;
   char nome[]="Nome: ",idade[]="Idade: ",anos[]=" anos",string[100], string_2[100];
+  const char *extensao=".txt";
   
-
-  fp = open ("questao2.txt", O_WRONLY | O_CREAT, S_IRWXU);
-  if(fp==-1)
-  {
-    printf ("Erro na abertura do arquivo.\n");
-    exit (1);
-  }
   
   printf("Digite o seu nome: ");
   scanf("%s",string);
   printf("Digite a sua idade: ");
   scanf("%s",string_2);
- 
-  
 
+  char *label = malloc(strlen(string) + strlen(extensao) + 2);
   
+  strcpy(label, string);
+  strcpy(label+strlen(string), extensao);
+
+  fp = open (label, O_WRONLY | O_CREAT, S_IRWXU);
+  if(fp==-1)
+  {
+    printf ("Erro na abertura do arquivo.\n");
+    exit (1);
+  }
+    
   for(i=0; nome[i]; i++)
     write(fp, &(nome[i]), 1); 
   for(i=0; string[i]; i++)
@@ -38,7 +42,7 @@ int main(int argc, const char * argv[])
   write(fp, "\n", 1);
   close(fp);
   printf("Arquivo foi criado com sucesso!\n");
-  printf("%s\n %s\n",string, string_2);
+  printf("%s\n %s\n",label, string_2);
 
 
   return 0;
