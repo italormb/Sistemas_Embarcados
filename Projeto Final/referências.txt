@@ -1,0 +1,23 @@
+https://maua.br/files/082014/visao-computacional-opencv-material-apostilado-veiculo-seguidor-autonomo.pdf
+
+http://professor.luzerna.ifc.edu.br/ricardo-antonello/wp-content/uploads/sites/8/2017/02/Livro-Introdu%C3%A7%C3%A3o-a-Vis%C3%A3o-Computacional-com-Python-e-OpenCV.pdf
+
+https://pt.slideshare.net/GutoKaberdock/introduo-ao-opencv
+
+http://www.ebah.com.br/content/ABAAAexpcAL/tutorial-open-cv
+
+http://guilhermemauro.com/blog/2016/06/30/introducao-ao-reconhecimento-de-imagem-com-opencv-e-python-parte-1/
+
+documentação: https://docs.opencv.org/2.4/doc/tutorials/tutorials.
+
+http://www.projectopen.xpg.com.br/index_arquivos/page0002.htm
+
+http://sergiogracas.com/html5/maratona2015_duo/maratona2015_duo.pdf
+
+implementar: https://www.google.com.br/search?ei=kor5WsiEFNGwwgSvoo3QCg&q=tutorial+identific+carachter+woth+opencv+ocr+with+linux&oq=tutorial+identific+carachter+woth+opencv+ocr+with+linux&gs_l=psy-ab.3...377140.398641.0.398804.63.51.0.0.0.0.807.3758.0j10j2j0j1j1j1.15.0.foo%2Ccfro%3D1%2Ckpnss%3D0...0...1.1.64.psy-ab..48.8.2655...0j0i67k1j33i160k1.0.JYb2qfYxwxY
+
+o primeiro para implementar: https://www.youtube.com/watch?v=TP1fVhuW_as
+
+para raspberry:https://www.raspberrypi.org/forums/viewtopic.php?t=45645
+
+implementando na raspberry: https://www.youtube.com/watch?v=jvFM-gIGpQQ&list=PLQTWZt6tif6Lkm5Q5aQFGETdFy5-vuN4x
