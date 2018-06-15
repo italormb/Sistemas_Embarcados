@@ -1,0 +1,12 @@
+/home/pi/.bashrc (ls -la arquivo oculto por causa do ponto)
+
+inserir comando para
+executar seu programa ao final de
+
+~/.bashrc
+
+nano .bashrc
+acrescenta:
+
+/home/pi/ola_startup
+
